@@ -23,7 +23,7 @@ function Data() {
 
       // เก็บข้อมูลล่าสุด
       if (response.data.data.length > 0) {
-        setLatestData(response.data.data[0]); // ข้อมูลล่าสุดคือข้อมูลแรกในอาร์เรย์
+        setLatestData(response.data.data); // ข้อมูลล่าสุดคือข้อมูลแรกในอาร์เรย์
       }
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -62,7 +62,7 @@ function Data() {
               rel="noopener noreferrer"
               className="text-red-300 hover:text-blue-500 no-underline hover:underline ml-1"
             >
-              View Latest Location on Google Maps
+              View on Google Maps
             </a>
           )}
         </div>
