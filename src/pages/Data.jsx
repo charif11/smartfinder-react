@@ -23,7 +23,7 @@ function Data() {
 
       // เก็บข้อมูลล่าสุด
       if (response.data.data.length > 0) {
-        setLatestData(response.data.data); // ข้อมูลล่าสุดคือข้อมูลแรกในอาร์เรย์
+        setLatestData(response.data.data[response.data.data.length - 1]);
       }
     } catch (error) {
       console.error("Error fetching data:", error);
