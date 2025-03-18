@@ -81,9 +81,6 @@ function Data() {
               <th>ID</th>
               <th>Latitude</th>
               <th>Longitude</th>
-              <th>Altitude</th>
-              <th>Speed</th>
-              <th>Satellites</th>
               <th>Date</th>
             </tr>
           </thead>
@@ -95,9 +92,6 @@ function Data() {
                   <th>{id}</th>
                   <td>{data.latitude}</td>
                   <td>{data.longitude}</td>
-                  <td>{data.altitude}</td>
-                  <td>{data.speed}</td>
-                  <td>{data.satellites}</td>
                   <td>{new Date(data.timestamp).toLocaleString()}</td>
                 </tr>
               );
