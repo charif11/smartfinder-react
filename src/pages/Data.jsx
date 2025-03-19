@@ -75,7 +75,7 @@ function Data() {
       </div>
 
       <div className="overflow-x-auto">
-        <table className="table">
+        <table className="table text-center">
           <thead>
             <tr>
               <th>ID</th>
