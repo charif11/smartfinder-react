@@ -103,7 +103,7 @@ function Data() {
       {/* Pagination controls */}
       <div className="join flex justify-center mt-4">
         <button
-          className="join-item btn"
+          className="join-item btn btn-info"
           onClick={() => setPage((prev) => Math.max(prev - 1, 1))}
           disabled={page === 1}
         >
@@ -113,7 +113,7 @@ function Data() {
           Page {page} of {totalPages}
         </button>
         <button
-          className="join-item btn"
+          className="join-item btn btn-info"
           onClick={() => setPage((prev) => prev + 1)}
           disabled={page === totalPages}
         >
