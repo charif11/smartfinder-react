@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import img from "../assets/gps.png"
 
 function Navbar() {
   return (
@@ -99,9 +100,9 @@ function Navbar() {
       <div className="navbar-end">
         <div className="w-10">
           <img
-            className="rounded-full"
+            className="rounded-full border-3 border-purple-600 bg-cyan-950"
             alt="Tailwind CSS Navbar component"
-            src="https://t3.ftcdn.net/jpg/03/94/89/90/360_F_394899054_4TMgw6eiMYUfozaZU3Kgr5e0LdH4ZrsU.jpg"
+            src={img}
           />
         </div>
       </div>
