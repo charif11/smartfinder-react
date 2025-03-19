@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 function Home() {
   return (
-    <div className="flex flex-wrap-reverse relative justify-evenly items-center h-[89vh] px-6 overflow-hidden">
+    <div className="flex flex-wrap-reverse relative justify-evenly items-center h-[87vh] px-6 overflow-hidden">
       <div className="text-3xl">
         <h1 className="text-5xl border-b-4 border-blue-500 pb-5">
           Project IOT
