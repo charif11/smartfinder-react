@@ -68,7 +68,7 @@ function Data() {
         </div>
         <div className="flex justify-end items-center gap-4">
           <span>Total: {totalItems}</span>
-          <button onClick={deleteAllData} className="btn btn-error transition-transform duration-300 hover:scale-105">
+          <button onClick={deleteAllData} className="btn btn-error transition-transform duration-300 hover:scale-105" disabled>
             Delete All Data
           </button>
         </div>
